@@ -1,0 +1,118 @@
+2026-11-03 14:45:22,279 - INFO - Starting ATS Resume Analyzer API...
+2026-11-03 14:45:22,279 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-11-03 14:45:37,567 - INFO - Loaded en_core_web_md
+2026-11-03 14:45:37,567 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-11-03 14:46:41,755 - INFO - Loaded all-MiniLM-L6-v2
+2026-11-03 14:46:41,755 - INFO - All models loaded. API is ready to serve requests.
+2026-11-03 14:47:47,123 - INFO - parse_Resume_file: parsing file :sample_random_cv.pdf
+2026-11-03 14:47:47,291 - INFO - parse_resume_file: Extracted 2069 chars from sample_random_cv.pdf
+2026-11-03 14:47:47,292 - INFO - Parsed 'sample_random_cv.pdf': 2069 chars extracted
+2026-11-03 14:47:50,831 - INFO - Groq parsed summary: 'Motivated and detail-oriented Computer Science graduate with a foundation in software development, p'
+2026-11-03 14:47:50,831 - INFO - Groq parsed skills count: 22
+2026-11-03 14:47:50,831 - INFO - Groq parsed experience count: 1
+2026-11-03 14:47:56,722 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 14:48:27,667 - INFO - parse_Resume_file: parsing file :Argha Pal_IT_2027.pdf
+2026-11-03 14:48:28,105 - INFO - parse_resume_file: Extracted 3704 chars from Argha Pal_IT_2027.pdf
+2026-11-03 14:48:28,106 - INFO - Parsed 'Argha Pal_IT_2027.pdf': 3704 chars extracted
+2026-11-03 14:48:33,586 - INFO - Groq parsed summary: ''
+2026-11-03 14:48:33,587 - INFO - Groq parsed skills count: 33
+2026-11-03 14:48:33,587 - INFO - Groq parsed experience count: 5
+2026-11-03 14:48:56,729 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 14:49:58,572 - ERROR - Failed to generate PDF: WeasyPrint is not installed. PDF generation unavailable.
+2026-11-03 14:50:45,791 - INFO - shutting down the api!!
+2026-11-03 19:11:55,127 - INFO - Starting ATS Resume Analyzer API...
+2026-11-03 19:11:55,128 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-11-03 19:12:04,364 - INFO - Loaded en_core_web_md
+2026-11-03 19:12:04,364 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-11-03 19:12:18,392 - INFO - Loaded all-MiniLM-L6-v2
+2026-11-03 19:12:18,392 - INFO - All models loaded. API is ready to serve requests.
+2026-11-03 19:13:33,029 - INFO - parse_Resume_file: parsing file :sample_random_cv.pdf
+2026-11-03 19:13:33,241 - INFO - parse_resume_file: Extracted 2069 chars from sample_random_cv.pdf
+2026-11-03 19:13:33,242 - INFO - Parsed 'sample_random_cv.pdf': 2069 chars extracted
+2026-11-03 19:13:37,930 - INFO - Groq parsed summary: 'Motivated and detail-oriented Computer Science graduate with a foundation in software development, p'
+2026-11-03 19:13:37,930 - INFO - Groq parsed skills count: 22
+2026-11-03 19:13:37,931 - INFO - Groq parsed experience count: 1
+2026-11-03 19:13:44,710 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:14:28,518 - ERROR - Failed to generate PDF: WeasyPrint is not installed. PDF generation unavailable.
+2026-11-03 19:17:32,952 - INFO - parse_Resume_file: parsing file :sample_random_cv.pdf
+2026-11-03 19:17:33,153 - INFO - parse_resume_file: Extracted 2069 chars from sample_random_cv.pdf
+2026-11-03 19:17:33,153 - INFO - Parsed 'sample_random_cv.pdf': 2069 chars extracted
+2026-11-03 19:17:36,681 - INFO - Groq parsed summary: 'Motivated and detail-oriented Computer Science graduate with a foundation in software development, p'
+2026-11-03 19:17:36,681 - INFO - Groq parsed skills count: 22
+2026-11-03 19:17:36,682 - INFO - Groq parsed experience count: 1
+2026-11-03 19:17:44,910 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:18:29,146 - ERROR - Failed to fetch history from Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses?user_id=eq.b7721fd9-a2e7-47f7-aadb-28a100450120&order=created_at.desc'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:29:16,527 - INFO - parse_Resume_file: parsing file :Argha Pal_IT_2027.pdf
+2026-11-03 19:29:16,966 - INFO - parse_resume_file: Extracted 3704 chars from Argha Pal_IT_2027.pdf
+2026-11-03 19:29:16,966 - INFO - Parsed 'Argha Pal_IT_2027.pdf': 3704 chars extracted
+2026-11-03 19:29:23,060 - INFO - Groq parsed summary: ''
+2026-11-03 19:29:23,060 - INFO - Groq parsed skills count: 21
+2026-11-03 19:29:23,060 - INFO - Groq parsed experience count: 5
+2026-11-03 19:29:42,101 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:29:54,827 - ERROR - Failed to generate PDF: WeasyPrint is not installed. PDF generation unavailable.
+2026-11-03 19:30:31,356 - ERROR - Failed to fetch history from Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses?user_id=eq.b7721fd9-a2e7-47f7-aadb-28a100450120&order=created_at.desc'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:31:16,675 - INFO - parse_Resume_file: parsing file :sample_random_cv.pdf
+2026-11-03 19:31:16,874 - INFO - parse_resume_file: Extracted 2069 chars from sample_random_cv.pdf
+2026-11-03 19:31:16,874 - INFO - Parsed 'sample_random_cv.pdf': 2069 chars extracted
+2026-11-03 19:31:20,937 - INFO - Groq parsed summary: 'Motivated and detail-oriented Computer Science graduate with a foundation in software development, p'
+2026-11-03 19:31:20,938 - INFO - Groq parsed skills count: 22
+2026-11-03 19:31:20,938 - INFO - Groq parsed experience count: 1
+2026-11-03 19:31:26,673 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:31:47,613 - ERROR - Failed to generate PDF: WeasyPrint is not installed. PDF generation unavailable.
+2026-11-03 19:41:32,917 - INFO - shutting down the api!!
+2026-11-03 19:41:38,197 - INFO - Starting ATS Resume Analyzer API...
+2026-11-03 19:41:38,197 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-11-03 19:41:44,239 - INFO - Loaded en_core_web_md
+2026-11-03 19:41:44,240 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-11-03 19:42:01,973 - INFO - Loaded all-MiniLM-L6-v2
+2026-11-03 19:42:01,974 - INFO - All models loaded. API is ready to serve requests.
+2026-11-03 19:42:02,088 - INFO - shutting down the api!!
+2026-11-03 19:42:05,276 - INFO - Starting ATS Resume Analyzer API...
+2026-11-03 19:42:05,276 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-11-03 19:42:09,159 - INFO - Loaded en_core_web_md
+2026-11-03 19:42:09,159 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-11-03 19:42:26,622 - INFO - Loaded all-MiniLM-L6-v2
+2026-11-03 19:42:26,622 - INFO - All models loaded. API is ready to serve requests.
+2026-11-03 19:42:31,986 - INFO - shutting down the api!!
+2026-11-03 19:42:38,619 - INFO - Starting ATS Resume Analyzer API...
+2026-11-03 19:42:38,619 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-11-03 19:42:43,182 - INFO - Loaded en_core_web_md
+2026-11-03 19:42:43,182 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-11-03 19:43:00,312 - INFO - Loaded all-MiniLM-L6-v2
+2026-11-03 19:43:00,312 - INFO - All models loaded. API is ready to serve requests.
+2026-11-03 19:43:36,746 - INFO - shutting down the api!!
+2026-11-03 19:45:34,130 - INFO - Starting ATS Resume Analyzer API...
+2026-11-03 19:45:34,130 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-11-03 19:45:37,884 - INFO - Loaded en_core_web_md
+2026-11-03 19:45:37,884 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-11-03 19:45:46,221 - INFO - Loaded all-MiniLM-L6-v2
+2026-11-03 19:45:46,221 - INFO - All models loaded. API is ready to serve requests.
+2026-11-03 19:46:51,213 - INFO - parse_Resume_file: parsing file :sample_random_cv.pdf
+2026-11-03 19:46:51,383 - INFO - parse_resume_file: Extracted 2069 chars from sample_random_cv.pdf
+2026-11-03 19:46:51,383 - INFO - Parsed 'sample_random_cv.pdf': 2069 chars extracted
+2026-11-03 19:46:57,896 - INFO - Groq parsed summary: 'Motivated and detail-oriented Computer Science graduate with a foundation in software development, p'
+2026-11-03 19:46:57,896 - INFO - Groq parsed skills count: 22
+2026-11-03 19:46:57,896 - INFO - Groq parsed experience count: 1
+2026-11-03 19:47:03,636 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:47:12,083 - INFO - WeasyPrint unavailable; using reportlab fallback for PDF export.
+2026-11-03 19:48:04,781 - INFO - parse_Resume_file: parsing file :Argha Pal_IT_2027.pdf
+2026-11-03 19:48:05,256 - INFO - parse_resume_file: Extracted 3704 chars from Argha Pal_IT_2027.pdf
+2026-11-03 19:48:05,256 - INFO - Parsed 'Argha Pal_IT_2027.pdf': 3704 chars extracted
+2026-11-03 19:48:11,298 - INFO - Groq parsed summary: ''
+2026-11-03 19:48:11,298 - INFO - Groq parsed skills count: 21
+2026-11-03 19:48:11,298 - INFO - Groq parsed experience count: 5
+2026-11-03 19:48:30,034 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:48:38,645 - INFO - WeasyPrint unavailable; using reportlab fallback for PDF export.
+2026-11-03 19:49:06,898 - ERROR - Failed to fetch history from Supabase: Client error '404 Not Found' for url 'https://ugxdfizylwvizlcinsjr.supabase.co/rest/v1/analyses?user_id=eq.b7721fd9-a2e7-47f7-aadb-28a100450120&order=created_at.desc'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-03 19:49:28,324 - INFO - shutting down the api!!
